@@ -1,4 +1,4 @@
-
+using BlazorSozluk.Infrastructure.Persistence.Extensions;
 namespace BlazorSozluk.Api.WebApi
 {
     public class Program
@@ -13,6 +13,7 @@ namespace BlazorSozluk.Api.WebApi
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddInfrastructureRegistration(builder.Configuration);
 
             var app = builder.Build();
             //uygulama build edildikten sonra çalýþna kýsým
