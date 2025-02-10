@@ -8,6 +8,8 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using BlazorSozluk.Api.Application.Interfaces.Repositories;
+using BlazorSozluk.Infrastructure.Persistence.Repositories;
 
 namespace BlazorSozluk.Infrastructure.Persistence.Extensions
 {
@@ -24,8 +26,10 @@ namespace BlazorSozluk.Infrastructure.Persistence.Extensions
                 });
             });
 
-           // var seedData = new SeedData();
+            // var seedData = new SeedData();
             //seedData.SeedAsync(configuration).GetAwaiter().GetResult();
+
+            services.AddScoped<IUserRepository, UserRepository>();
 
             return services;
         }

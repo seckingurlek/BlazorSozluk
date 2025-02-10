@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "87Vc1omVlaVQZs2oMyUpukMsgf8xU3cTFNdUup0irX91cDCJ/3mjQh3o6Nwr6zHLuNuF+W3soCU6BKKOb5WSxg==",
+  "dgSpecHash": "Anxkyp3m593ry/RU+eGGyI+uZcssGhwPM8uKmyUqov0tOr8zUJ4jE4KMAtTBNI72/QlDhxysd2kw2HwHQsu0Mw==",
   "success": true,
   "projectFilePath": "C:\\Users\\90534\\source\\repos\\Blazor\\src\\Common\\BlazorSozluk.Common\\BlazorSozluk.Common.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\90534\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\90534\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\90534\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
